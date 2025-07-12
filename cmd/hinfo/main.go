@@ -13,8 +13,8 @@ import (
 var (
 	flagEndpoint = flag.String("endpoint", "http://192.168.8.1/", "api endpoint")
 	flagDebug    = flag.Bool("v", false, "enable verbose")
-	flagLogin    = flag.String("l", "", "login")
-	flagPassword = flag.String("p", "", "password")
+	flagLogin    = flag.String("l", "admin", "login")
+	flagPassword = flag.String("p", "Corporate@123", "password")
 )
 
 func main() {
