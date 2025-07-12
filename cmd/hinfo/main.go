@@ -11,9 +11,9 @@ import (
 )
 
 var (
-	flagEndpoint = flag.String("endpoint", "http://192.168.8.1/ -l admin -p Corporate@123 -v 
-	flagLogin    = flag.String("l", "", "login")
-	flagPassword = flag.String("p", "", "password")
+	flagEndpoint = flag.String("endpoint", "http://192.168.8.1/ -l admin -p Corporate@123 -v )
+	flagLogin    = flag.String("l", "admin", "login")
+	flagPassword = flag.String("p", "Corporate@123", "password")
 )
 
 func main() {
