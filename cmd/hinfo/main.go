@@ -11,8 +11,7 @@ import (
 )
 
 var (
-	flagEndpoint = flag.String("endpoint", "http://192.168.8.1/ -l admin -p Corporate@123 -v ", "api endpoint")
-	flagDebug    = flag.Bool("v", false, "enable verbose")
+	flagEndpoint = flag.String("endpoint", "http://192.168.8.1/ -l admin -p Corporate@123 -v 
 	flagLogin    = flag.String("l", "", "login")
 	flagPassword = flag.String("p", "", "password")
 )
